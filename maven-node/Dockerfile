@@ -12,7 +12,6 @@ RUN curl -sL https://deb.nodesource.com/setup_8.x | bash - && \
 RUN npm install -g gulp
 
 RUN apt-get update && apt-get install -y \
-    php5-mcrypt \
     python-pip \
     openssl \
     python2.7-dev
